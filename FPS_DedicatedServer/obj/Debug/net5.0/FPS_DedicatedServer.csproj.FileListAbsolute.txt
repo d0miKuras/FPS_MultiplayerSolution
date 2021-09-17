@@ -1,0 +1,15 @@
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/bin/Debug/net5.0/FPS_DedicatedServer.deps.json
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/bin/Debug/net5.0/FPS_DedicatedServer.runtimeconfig.json
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/bin/Debug/net5.0/FPS_DedicatedServer.runtimeconfig.dev.json
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/bin/Debug/net5.0/FPS_DedicatedServer.dll
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/bin/Debug/net5.0/ref/FPS_DedicatedServer.dll
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/bin/Debug/net5.0/FPS_DedicatedServer.pdb
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/FPS_DedicatedServer.csproj.AssemblyReference.cache
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/FPS_DedicatedServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/FPS_DedicatedServer.AssemblyInfoInputs.cache
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/FPS_DedicatedServer.AssemblyInfo.cs
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/FPS_DedicatedServer.csproj.CoreCompileInputs.cache
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/FPS_DedicatedServer.dll
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/ref/FPS_DedicatedServer.dll
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/FPS_DedicatedServer.pdb
+/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/Debug/net5.0/FPS_DedicatedServer.genruntimeconfig.cache

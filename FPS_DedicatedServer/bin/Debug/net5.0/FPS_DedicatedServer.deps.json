@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FPS_DedicatedServer/1.0.0": {
+        "runtime": {
+          "FPS_DedicatedServer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FPS_DedicatedServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
