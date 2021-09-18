@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Net;
 using System.Net.Sockets;
+using System.Numerics;
 
 namespace FPS_DedicatedServer
 {
@@ -13,6 +14,7 @@ namespace FPS_DedicatedServer
         public int id;
         public TCP tcp;
         public UDP udp;
+        public Player player;
 
         public Client(int _clientId)
         {
@@ -151,7 +153,6 @@ namespace FPS_DedicatedServer
             public void Connect(IPEndPoint _endPoint)
             {
                 endPoint = _endPoint;
-                ServerSend.UDPTest(id);
             }
 
             public void SendData(Packet _packet)
@@ -173,6 +174,31 @@ namespace FPS_DedicatedServer
                     }
                 });
             }
+        }
+
+        public void SendIntoGame(string _playerName)
+        {
+            player = new Player(id, _playerName, new Vector3(0, 0, 0));
+
+            foreach(Client _client in Server.clients.Values)
+            {
+                if(_client.player != null)
+                {
+                    if(_client.id != id)
+                    {
+                        ServerSend.SpawnPlayer(id, _client.player);
+                    }
+                }
+            }
+
+            foreach(Client _client in Server.clients.Values)
+            {
+                if(_client.player != null)
+                {
+                    ServerSend.SpawnPlayer(_client.id, player);
+                }
+            }
+
         }
     }
 }

@@ -36,12 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scenes\Scripts\Client.cs" />
-     <Compile Include="Assets\Scenes\Scripts\UIManager.cs" />
-     <Compile Include="Assets\Scenes\Scripts\ClientHandle.cs" />
-     <Compile Include="Assets\Scenes\Scripts\Packet.cs" />
      <Compile Include="Assets\Scenes\Scripts\ThreadManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\ClientSend.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Client.cs" />
+     <Compile Include="Assets\Scenes\Scripts\ClientHandle.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Packet.cs" />
+     <Compile Include="Assets\Scenes\Scripts\UIManager.cs" />
+     <Compile Include="Assets\Scenes\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scenes\Scripts\PlayerManager.cs" />
+     <Compile Include="Assets\Scenes\Scripts\CharacterController.cs" />
+     <Compile Include="Assets\Scenes\Scripts\CameraController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity Editors/2020.3.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -265,7 +269,7 @@
         <HintPath>/Applications/Unity Editors/2020.3.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/d0mi/Projects/Unity/FPS_Server/GameClient/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/GameClient/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity Editors/2020.3.17f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -619,10 +623,10 @@
         <HintPath>/Applications/Unity Editors/2020.3.17f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/d0mi/Projects/Unity/FPS_Server/GameClient/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/GameClient/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/d0mi/Projects/Unity/FPS_Server/GameClient/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/GameClient/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

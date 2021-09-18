@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/FPS_DedicatedServer.csproj": {}
+    "/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/FPS_DedicatedServer/FPS_DedicatedServer.csproj": {}
   },
   "projects": {
-    "/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/FPS_DedicatedServer.csproj": {
+    "/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/FPS_DedicatedServer/FPS_DedicatedServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/FPS_DedicatedServer.csproj",
+        "projectUniqueName": "/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/FPS_DedicatedServer/FPS_DedicatedServer.csproj",
         "projectName": "FPS_DedicatedServer",
-        "projectPath": "/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/FPS_DedicatedServer.csproj",
+        "projectPath": "/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/FPS_DedicatedServer/FPS_DedicatedServer.csproj",
         "packagesPath": "/Users/d0mi/.nuget/packages/",
-        "outputPath": "/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/obj/",
+        "outputPath": "/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/FPS_DedicatedServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/d0mi/.config/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

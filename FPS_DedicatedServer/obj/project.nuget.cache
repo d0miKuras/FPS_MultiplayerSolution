@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LPGKCmMkPqZp+eDKE98qtztqjcl1nU+hTw4UCa1ic4o4BYoqh1TF+RL34Ioql0BJzXibX1QHOzF3WxRc7rbCSA==",
+  "dgSpecHash": "YOa+CvMHr+cC01/gDbMLeSKV2mV0sz6hWl4/ouKpWLzC+svbFYpbbsMO+3rx3jlPnu1YYP/AsV7nsEp2tGRK/w==",
   "success": true,
-  "projectFilePath": "/Users/d0mi/Projects/Unity/FPS_Server/FPS_DedicatedServer/FPS_DedicatedServer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/d0mi/Projects/Unity/FPS_MultiplayerSolution/FPS_DedicatedServer/FPS_DedicatedServer.csproj",
+  "expectedPackageFiles": [
+    "/Users/d0mi/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

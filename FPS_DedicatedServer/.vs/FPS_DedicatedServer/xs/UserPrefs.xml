@@ -1,16 +1,17 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{0497F2EF-FB4D-455A-84E7-CD5D1FFF2999}|Default">
   <MonoDevelop.Ide.ItemProperties.Server.FPS__DedicatedServer PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Server.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Client.cs">
     <Files>
-      <File FileName="Client.cs" Line="7" Column="30" />
+      <File FileName="Client.cs" Line="17" Column="30" />
       <File FileName="Server.cs" Line="6" Column="1" />
-      <File FileName="Program.cs" Line="7" Column="6" />
-      <File FileName="Packet.cs" Line="5" Column="30" />
-      <File FileName="ServerSend.cs" Line="5" Column="30" />
-      <File FileName="ServerHandle.cs" Line="10" Column="10" />
-      <File FileName="ThreadManager.cs" Line="8" Column="6" />
-      <File FileName="GameLogic.cs" Line="6" Column="36" />
-      <File FileName="Constants.cs" Line="7" Column="61" />
+      <File FileName="Program.cs" />
+      <File FileName="Packet.cs" />
+      <File FileName="ServerSend.cs" />
+      <File FileName="ServerHandle.cs" />
+      <File FileName="ThreadManager.cs" />
+      <File FileName="GameLogic.cs" />
+      <File FileName="Constants.cs" />
+      <File FileName="Player.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,15 +20,10 @@
             <Node name="Client" expanded="True" />
             <Node name="Server" expanded="True">
               <Node name="FPS_DedicatedServer" expanded="True">
-                <Node name="Server.cs" selected="True" />
+                <Node name="Client.cs" selected="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="FPS_DedicatedServer" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
